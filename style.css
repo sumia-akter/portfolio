@@ -1,0 +1,62 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.navbar,
+.nav ul{
+	background:#97455f;
+	padding: 0;
+	margin: 0;
+
+}
+.nav ul li{
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 10px  15px;
+}
+.nav ul li:hover{
+	background: #680d2a;
+}
+.nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+.header-title{
+	text-align: center;
+	padding: 21px 131px;
+	
+}
+.header-title h1{
+	font-size: 30px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.header-title h3{
+	color:red;
+	font-size: 20px;
+	position: relative;
+	text-transform: uppercase;
+}
+.header-title h3::after{
+	content: '';
+	background: black;
+	height: 4px;
+	position: absolute;
+	width: 40px;
+	top: 50%;
+	left: 38%;
+	z-index: -1;
+}
+.header-title h3::before{
+	content: '';
+	background: black;
+	height: 4px;
+	position: absolute;
+	width: 40px;
+	top: 50%;
+	/*right: 38%;*/
+	z-index: -1;
+}
+.header-title h3 span{
+	background: white;
+}
